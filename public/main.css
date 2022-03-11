@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+}
+
+footer {
+  color: white;
+  padding-top: 20px;
+}
+
+.download {
+  padding: 10px 40px;
+  font-weight: bold;
+  background-color: #FFD306;
+  color: #000;
+  text-decoration: none;
+  margin: 20px;
+  margin-bottom: 5px;
+}
+
+.download:hover {
+  background-color: #947e1b;
+  color: #222;
+}
+
+.menuimg {
+  width: 100%;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+hr {
+  width: 100%;
+  color: white;
+  height: 3px;
+}
